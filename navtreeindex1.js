@@ -1,10 +1,11 @@
 var NAVTREEINDEX1 =
 {
+"pag_example.html":[0],
 "pages.html":[],
 "par_8cpp.html":[5,0,0,0,25],
 "par_8cpp_source.html":[5,0,0,0,25],
 "pyexample_8py.html":[5,0,0,0,26],
-"pyexample_8py.html#a0cf7bc742671b4c79ce88c87373d7969":[5,0,0,0,26,1],
+"pyexample_8py.html#a2daf35288bc9d0a1d4233ab18b553451":[5,0,0,0,26,1],
 "pyexample_8py_source.html":[5,0,0,0,26],
 "qtstyle_8cpp.html":[5,0,0,0,27],
 "qtstyle_8cpp_source.html":[5,0,0,0,27],
@@ -45,6 +46,5 @@ var NAVTREEINDEX1 =
 "tag_8cpp.html":[5,0,0,0,32],
 "tag_8cpp_source.html":[5,0,0,0,32],
 "templ_8cpp.html":[5,0,0,0,33],
-"templ_8cpp_source.html":[5,0,0,0,33],
-"topics.html":[2]
+"templ_8cpp_source.html":[5,0,0,0,33]
 };

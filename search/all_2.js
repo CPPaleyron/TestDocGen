@@ -1,16 +1,8 @@
 var searchData=
 [
-  ['a_0',['A',['../classA.html',1,'A'],['../memgrp_8cpp.html#a955f504eccf76b4eb2489c0adab03121',1,'A:&#160;memgrp.cpp']]],
-  ['a_20section_20in_20group_205_1',['This is a section in group 5',['../group__group5.html',1,'']]],
-  ['abs_2',['ABS',['../autolink_8cpp.html#a996f7be338ccb40d1a2a5abc1ad61759',1,'ABS:&#160;autolink.cpp'],['../define_8h.html#a996f7be338ccb40d1a2a5abc1ad61759',1,'ABS:&#160;define.h']]],
-  ['add_3',['add',['../restypedef_8cpp.html#a102acaaa258e937adf910898c6133545',1,'restypedef.cpp']]],
-  ['afterdoc_2eh_4',['afterdoc.h',['../afterdoc_8h.html',1,'']]],
-  ['afterdoc_5ftest_5',['Afterdoc_Test',['../classAfterdoc__Test.html',1,'']]],
-  ['age_6',['age',['../classTestDocFx_1_1Foo.html#a0238957bafbb9cb6b63c97aa273eafe9',1,'TestDocFx::Foo']]],
-  ['ageat_7',['AgeAt',['../classTestDocFx_1_1Program.html#ad13a714324d86d82ee41feeabdc7cd14',1,'TestDocFx::Program']]],
-  ['another_20section_20in_20group_205_8',['This is another section in group 5',['../group__group5.html',1,'']]],
-  ['anotherenum_9',['AnotherEnum',['../classEnum__Test.html#a633286511e19b996e97699d7dd2cd2a0',1,'Enum_Test']]],
-  ['author_2ecpp_10',['author.cpp',['../author_8cpp.html',1,'']]],
-  ['autolink_2ecpp_11',['autolink.cpp',['../autolink_8cpp.html',1,'']]],
-  ['autolink_5ftest_12',['Autolink_Test',['../classAutolink__Test.html',1,'Autolink_Test'],['../classAutolink__Test.html#a278d631f9943428c05b17d78f14488e2',1,'Autolink_Test::Autolink_Test()']]]
+  ['b_0',['B',['../classB.html',1,'B'],['../memgrp_8cpp.html#a7ddc550b157ed6f8db58e462b504ab0f',1,'B():&#160;memgrp.cpp'],['../autolink_8cpp.html#a7ddc550b157ed6f8db58e462b504ab0f',1,'B():&#160;autolink.cpp']]],
+  ['base_1',['base',['../structVehicle.html#ad7970f528d429f6fc1725173e93a77c2',1,'Vehicle::base()'],['../structCar.html#ab8ff28306286da5a8b14fa9bdccaafaa',1,'Car::base()'],['../structTruck.html#ad0ac321609dda1a6c552488b05ec7ac8',1,'Truck::base()']]],
+  ['behavior_2',['behavior',['../classmux__using__with_1_1behavior.html',1,'mux_using_with']]],
+  ['blub_3',['blub',['../classTestDocFx_1_1Foo.html#aa48d01a491b3883aebcb7e5e2b21b5ab',1,'TestDocFx::Foo']]],
+  ['bug_20list_4',['Bug List',['../bug.html',1,'']]]
 ];

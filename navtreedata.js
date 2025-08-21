@@ -27,7 +27,7 @@ var NAVTREE =
   [ "Test Dokumentation", "index.html", [
     [ "pag_example", "pag_example.html", null ],
     [ "Bug List", "bug.html", null ],
-    [ "Topics", "topics.html", "topics" ],
+    [ "Modules", "modules.html", "modules" ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
@@ -46,7 +46,7 @@ var NAVTREE =
         [ "Variables", "functions_vars.html", null ],
         [ "Enumerations", "functions_enum.html", null ],
         [ "Enumerator", "functions_eval.html", null ],
-        [ "Related Symbols", "functions_rela.html", null ]
+        [ "Related Functions", "functions_rela.html", null ]
       ] ]
     ] ],
     [ "Files", "files.html", [
@@ -68,7 +68,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "Program_8cs.html",
-"pages.html"
+"pag_example.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
