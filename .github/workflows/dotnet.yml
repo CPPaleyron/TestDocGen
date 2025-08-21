@@ -24,11 +24,18 @@ jobs:
       run: dotnet build --no-restore
     - name: Test
       run: dotnet test --no-build --verbosity normal
-    - name: Generate and Deploy Doxygen Docs
-      uses: AgarwalSaurav/ghaction-doxygen-ghpages@release/v2
+    - name: Doxygen Deploy Action
+      # You may pin to the exact commit or the version.
+      # uses: JustEnoughMod/DoxygenDeployAction@dc29bbb488afbb7877be67ad93b6faeb1dc179cb
+      uses: JustEnoughMod/DoxygenDeployAction@1.0.1
       with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          working-directory: .
-          doxyfile-path: Doxyfile
-          html-output-folder: html
-          branch: gh-pages
+            # A GitHub token for pushing to the repo. Example: https://git.io/passing-token
+            github_token: ${{ secrets.GITHUB_TOKEN }}
+            # Branch name for pushing GitHub pages files
+            branch: gh-pages
+            # Folder where Doxygen will generate the HTML build files
+            folder: html
+            # Path of the Doxygen configuration file
+            config_file: Doxyfile
+            #Directory on the deployment branch for pushing the build files
+            #target_folder: # optional
