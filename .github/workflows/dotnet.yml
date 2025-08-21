@@ -36,7 +36,7 @@ jobs:
     # Branch name for pushing GitHub pages files
           #branch: # default is gh-pages
     # Folder where Doxygen will generate the HTML build files
-          #folder: # default is docs/html
+          folder: html
     # Path of the Doxygen configuration file
           #config_file: # default is Doxyfile
     # Directory on the deployment branch for pushing the build files
