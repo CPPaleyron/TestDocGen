@@ -1,0 +1,46 @@
+
+# Build results
+bin/
+obj/
+*.dll
+*.exe
+*.app
+*.log
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code
+.vscode/
+
+# Rider
+.idea/
+
+# Doxygen output
+docs/html/
+docs/latex/
+*.tag
+*.dox
+
+# Backup files
+*~
+*.bak
+
+# NuGet
+*.nupkg
+packages/
+project.lock.json
+
+# DotCover
+*.dcvr
+
+# Test results
+TestResults/
+*.trx
+
+# Temporary files
+*.tmp
+*.temp
