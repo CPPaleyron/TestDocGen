@@ -38,7 +38,7 @@ jobs:
     # Folder where Doxygen will generate the HTML build files
           folder: html
     # Path of the Doxygen configuration file
-          config_file: Doxyfile_test
+          config_file: Doxyfile
     # Directory on the deployment branch for pushing the build files
           #target_folder: # optional
     # Version of Doxygen to install
