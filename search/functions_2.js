@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['blub_0',['blub',['../classTestDocFx_1_1Foo.html#aa48d01a491b3883aebcb7e5e2b21b5ab',1,'TestDocFx::Foo']]]
+  ['main_0',['Main',['../classTestDocFx_1_1Program.html#a52b064b36f2378f4d43c75acb97e7dc0',1,'TestDocFx::Program']]]
 ];
