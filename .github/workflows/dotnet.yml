@@ -28,8 +28,10 @@ jobs:
       run: dotnet test --no-build --verbosity normal
     - name: Install Doxygen
       run: |
-          sudo apt-get update
-          sudo apt-get install -y doxygen
+          wget https://doxygen.nl/files/doxygen-1.14.0.linux.bin.tar.gz
+          tar -xzf doxygen-1.14.0.linux.bin.tar.gz
+          sudo mv doxygen-1.14.0 /opt/doxygen
+          sudo ln -sf /opt/doxygen/bin/doxygen /usr/local/bin/doxygen
     - name: Generate code documentation
       run: doxygen Doxyfile
     # Copy html folder to publish it on gh-pages
