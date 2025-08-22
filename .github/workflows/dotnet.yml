@@ -26,20 +26,21 @@ jobs:
       run: dotnet build --no-restore
     - name: Test
       run: dotnet test --no-build --verbosity normal
-    - name: Doxygen GitHub Pages Deploy Action
-      # You may pin to the exact commit or the version.
-      # uses: DenverCoder1/doxygen-github-pages-action@a30f9538f8ef1305aeceb563018f452c7a62d200
-      uses: DenverCoder1/doxygen-github-pages-action@v2.0.0
+    - name: Install Doxygen
+      run: |
+          sudo apt-get update
+          sudo apt-get install -y doxygen
+    - name: Generate code documentation
+      run: doxygen Doxyfile
+    # Copy html folder to publish it on gh-pages
+    - name: Copy generated docs to output folder
+      run: |
+        mkdir -p docs
+        cp -r html/* docs/
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v4
       with:
-        # A GitHub token for pushing to the repo. Example: https://git.io/passing-token
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-    # Branch name for pushing GitHub pages files
-          #branch: # default is gh-pages
-    # Folder where Doxygen will generate the HTML build files
-          folder: html
-    # Path of the Doxygen configuration file
-          config_file: Doxyfile
-    # Directory on the deployment branch for pushing the build files
-          #target_folder: # optional
-    # Version of Doxygen to install
-          doxygen_version: 1.14.0
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./docs
+
+
