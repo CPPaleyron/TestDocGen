@@ -1,11 +1,12 @@
 var NAVTREEINDEX1 =
 {
+"overload_8cpp.html":[5,0,0,0,24],
+"overload_8cpp_source.html":[5,0,0,0,24],
 "pag_example.html":[0],
 "pages.html":[],
 "par_8cpp.html":[5,0,0,0,25],
 "par_8cpp_source.html":[5,0,0,0,25],
 "pyexample_8py.html":[5,0,0,0,26],
-"pyexample_8py.html#a2daf35288bc9d0a1d4233ab18b553451":[5,0,0,0,26,1],
 "pyexample_8py_source.html":[5,0,0,0,26],
 "qtstyle_8cpp.html":[5,0,0,0,27],
 "qtstyle_8cpp_source.html":[5,0,0,0,27],
@@ -17,7 +18,6 @@ var NAVTREEINDEX1 =
 "restypedef_8cpp.html#a102acaaa258e937adf910898c6133545":[5,0,0,0,29,2],
 "restypedef_8cpp_source.html":[5,0,0,0,29],
 "strip__example_8py.html":[5,0,0,0,30],
-"strip__example_8py.html#a9fff99ba5b5564a70fa48b9757ef9885":[5,0,0,0,30,0],
 "strip__example_8py_source.html":[5,0,0,0,30],
 "structCar.html":[4,0,13],
 "structCar.html#ab8ff28306286da5a8b14fa9bdccaafaa":[4,0,13,0],
@@ -46,5 +46,6 @@ var NAVTREEINDEX1 =
 "tag_8cpp.html":[5,0,0,0,32],
 "tag_8cpp_source.html":[5,0,0,0,32],
 "templ_8cpp.html":[5,0,0,0,33],
-"templ_8cpp_source.html":[5,0,0,0,33]
+"templ_8cpp_source.html":[5,0,0,0,33],
+"topics.html":[2]
 };
